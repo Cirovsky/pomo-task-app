@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="container principal">
       <Header/>
-      <main>
-        <Screen/>
+      <main className="container main">
+        <Screen title ={'por realização'}/>
       </main>
       <Footer/>
     </div>
