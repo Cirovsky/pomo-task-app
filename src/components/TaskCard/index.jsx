@@ -1,7 +1,7 @@
-const Task = props =>{
+const TaskCard = ({title}) =>{
     return(
         <li>
-            <h3>nome da Task</h3>
+            <h3>{title}</h3>
             <ul>
                 <li></li>
             </ul>
@@ -9,4 +9,4 @@ const Task = props =>{
     )
 }
 
-export default Task;
+export default TaskCard;

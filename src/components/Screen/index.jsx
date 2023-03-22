@@ -1,7 +1,7 @@
 import MainTask from '../MainTask';
 import './Screen.css';
 
-const Screen = ({title}) => {
+const Screen = ({title, tasklist}) => {
     return(
         <>
         <h2>{title} :</h2>

@@ -1,16 +1,33 @@
 .container{
     display: flex;
-    align-items: center;
 }
 
 .principal{
     flex-direction: column;
+    align-items: center;
     height: 90vh;
     justify-content: space-between;
 }
 
-.main{
+.main, .view{
     flex-direction: column;
+    align-items: center;
+    background-color: gray;
     flex-grow: 1;
     width: 100vw;
+}
+
+.new-task-form{
+    display: none;
+}
+
+.container__add-task{
+    justify-content: flex-end;
+    width: 100vw;
+}
+
+.add-task{
+    width: 6vw;
+    height: 6vw;
+    padding: 2vw 2vw;
 }
